@@ -31,11 +31,11 @@ class DeviseCreatePostImages < ActiveRecord::Migration[6.1]
       # t.integer  :failed_attempts, default: 0, null: false # Only if lock strategy is :failed_attempts
       # t.string   :unlock_token # Only if unlock strategy is :email or :both
       # t.datetime :locked_at
-      
-      t.string :shopname
+
+      t.string :shop_name
       t.text :caption
       t.integer :user_id
-      
+
 
 
       t.timestamps null: false
